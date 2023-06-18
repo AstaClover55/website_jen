@@ -1,2 +1,2 @@
-FROM httpd:latest
+FROM docker.io/httpd:latest
 COPY . /var/www/html
