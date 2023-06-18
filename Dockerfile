@@ -1,2 +1,2 @@
 FROM docker.io/httpd:latest
-COPY . /var/www/html
+COPY . /usr/local/apache2/htdocs/
