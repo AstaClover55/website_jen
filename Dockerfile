@@ -1,2 +1,2 @@
-FROM httpd
-ADD . /var/www/html
+FROM httpd:latest
+COPY . /var/www/html
